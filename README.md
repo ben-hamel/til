@@ -1,5 +1,5 @@
 # TIL — Today I Learned
 
-A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies.
+This is where I keep track of things I learn day to day while developing software.
 
-Inspired by [jbranchaud/til](https://til.devjugal.com/)
+Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) and  [devjugal](https://til.devjugal.com/).
