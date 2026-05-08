@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://ben-hamel.github.io',
-	base: '/til',
+	site: 'https://til.eastcoastdev.online',
 	integrations: [
 		starlight({
 			title: 'Today I Learned',
