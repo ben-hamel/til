@@ -31,6 +31,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Windows',
+					collapsed: true,
+					items: [
+						{
+							label: 'WSL',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'windows/wsl' } }],
+						},
+					],
+				},
 			],
 		}),
 	],
