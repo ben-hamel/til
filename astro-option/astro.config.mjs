@@ -16,6 +16,11 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'TIL', link: '/til/' },
 				{
+					label: 'Dotfiles',
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'dotfiles' } }],
+				},
+				{
 					label: 'Docker',
 					collapsed: true,
 					items: [{ autogenerate: { directory: 'docker' } }],
@@ -28,6 +33,17 @@ export default defineConfig({
 							label: 'Fedora',
 							collapsed: true,
 							items: [{ autogenerate: { directory: 'linux/fedora' } }],
+						},
+					],
+				},
+				{
+					label: 'Windows',
+					collapsed: true,
+					items: [
+						{
+							label: 'WSL',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'windows/wsl' } }],
 						},
 					],
 				},
